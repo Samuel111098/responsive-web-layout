@@ -1,0 +1,457 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+}
+.container-fluid {
+	background: url(./img/homepage.jpeg);
+	height: auto;
+	width: auto;
+}
+.nav-item {
+	position: absolute;
+	right: 5%;
+	margin-top: 5%;
+}
+.navbar-nav .navbar-brand img {
+	margin-left: 0.3em;
+	width: 144px;
+}
+.navbar-nav .nav-item {
+	width: 9%;
+}
+.content {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+	padding: 5em;
+	line-height: 0.2em;
+	margin-bottom: 0px;
+}
+.content h1 {
+	font-size: 58px;
+}
+.content p {
+	font-size: 24px;
+}
+#try {
+	margin-top: 3%;
+	padding: 1.5%;
+	font-size: larger;
+	margin-bottom: 3%;
+	width: 20%;
+}
+hr {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 0.8em;
+	background-color: rgba(169, 169, 169, 0.287);
+}
+.container {
+	padding: 3.4em;
+}
+#tv,
+#stream,
+#device {
+	line-height: 1.6em;
+}
+#tv h1,
+p,
+#stream h1,
+p,
+#device h1,
+p {
+	margin-top: 3%;
+}
+#tv h1,
+#stream h1,
+#device h1 {
+	font-size: 48px;
+}
+#tv p,
+#stream p,
+#device p {
+	font-size: 28px;
+	line-height: 1.6em;
+}
+#tv .btn,
+#stream .btn,
+#device .btn {
+	margin-top: 1em;
+}
+footer h1 {
+	font-size: 1.5em;
+	padding: 0.6em;
+	margin-left: 2%;
+}
+footer p {
+	background-color: black;
+	margin: 0.5em;
+	margin-left: 2.5em;
+}
+#accordion h1 {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	padding: 1em;
+}
+
+.card {
+	background-color: rgb(78, 75, 75);
+	padding: 0.2em;
+	margin: 0.3em 5em;
+	font-size: 1.5em;
+}
+#accbtn {
+	margin-top: 4%;
+	margin-left: 40%;
+}
+.plus {
+	float: right;
+}
+
+#image1,
+#image2,
+#video {
+	margin-left: 15%;
+}
+@media (max-width: 992px) {
+	#try {
+		font-size: small;
+	}
+	.card {
+		margin: 0.3em 2em;
+	}
+	#accbtn {
+		font-size: small;
+	}
+}
+@media (max-width: 768px) {
+	#try {
+		font-size: smaller;
+		width: 24%;
+	}
+	#accbtn {
+		font-size: smaller;
+	}
+	.navbar-nav .navbar-brand img {
+		width: 115px;
+	}
+	.navbar-nav .nav-item {
+		width: 15%;
+	}
+	.nav-item {
+		margin-top: 5%;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		margin-top: 1em;
+		font-size: small;
+	}
+	#tv h1,
+	#stream h1,
+	#device h1 {
+		font-size: 28px;
+	}
+	#tv p,
+	#stream p,
+	#device p {
+		font-size: 14px;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: small;
+	}
+	.content h1 {
+		font-size: 42px;
+		margin-bottom: 5%;
+	}
+	.content p {
+		font-size: 18px;
+	}
+	#accordion h1 {
+		font-size: 32px;
+	}
+	.card-body,
+	.card-header a {
+		font-size: 18px;
+	}
+}
+@media (max-width: 425px) {
+	.navbar-nav .navbar-brand img {
+		width: 90px;
+	}
+	.navbar-nav .nav-item {
+		width: 18%;
+		margin-top: 8%;
+	}
+	.navbar-nav .nav-item a {
+		font-size: small;
+	}
+	.content {
+		margin: 0 1%;
+		padding: 10%;
+	}
+	.content h1 {
+		font-size: 32px;
+		margin-bottom: 10%;
+	}
+	.content p {
+		font-size: 18px;
+		margin-top: 3%;
+		margin-bottom: 10%;
+	}
+	#try {
+		width: 30%;
+		font-size: x-small;
+	}
+	#video,
+	#image1,
+	#image2 {
+		margin-left: 0.25%;
+		margin-top: 1%;
+	}
+	#accordion h1 {
+		padding: 0em;
+		font-size: 28px;
+		margin-bottom: 10%;
+	}
+	.card {
+		margin: 0.3em 0.5em;
+		padding: 0%;
+	}
+	#accbtn {
+		margin-left: 30%;
+		margin-top: 5%;
+	}
+	footer h1 {
+		padding: 0em;
+		margin-left: 0%;
+		font-size: 18px;
+	}
+	footer p {
+		margin-left: 0em;
+		font-size: 14px;
+	}
+	#tv h1,
+	#stream h1,
+	#device h1 {
+		font-size: 28px;
+	}
+	#tv p,
+	#stream p,
+	#device p {
+		font-size: 14px;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: x-small;
+	}
+	.card-body,
+	.card-header a {
+		font-size: 14px;
+	}
+	.plus {
+		width: 20px;
+		margin-top: 2.5%;
+	}
+}
+@media (max-width: 375px) {
+	.navbar-nav .navbar-brand img {
+		width: 78px;
+	}
+	.navbar-nav .nav-item {
+		width: 20%;
+	}
+	.navbar-nav .nav-item a {
+		font-size: x-small;
+	}
+	.content h1 {
+		font-size: 28px;
+	}
+	.content p {
+		font-size: 14px;
+		margin-top: 5%;
+		line-height: 1.6em;
+	}
+	#try {
+		width: 40%;
+	}
+	.card {
+		margin: 0.3em 0em;
+		padding: 0;
+	}
+	#accbtn {
+		margin-left: 25%;
+		margin-top: 10%;
+	}
+	#tv h1,
+	#stream h1,
+	#device h1 {
+		font-size: 28px;
+	}
+	#tv p,
+	#stream p,
+	#device p {
+		font-size: 12px;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: x-small;
+	}
+	footer h1 {
+		font-size: 16px;
+	}
+	footer p {
+		font-size: 12px;
+	}
+	.plus {
+		width: 18px;
+		margin-top: 3%;
+	}
+	.card-header,
+	.card-body {
+		padding: 0.5rem 1rem;
+	}
+}
+@media (max-width: 320px) {
+	.navbar-nav .navbar-brand img {
+		width: 60px;
+	}
+	.content {
+		margin: 0em 0%;
+		padding: 0%;
+	}
+	.content h1 {
+		font-size: 20px;
+		margin-bottom: 1%;
+		padding: 5%;
+	}
+	.content p {
+		line-height: 0.6em;
+		font-size: 12px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	.navbar-nav .nav-item {
+		width: 20%;
+	}
+	.navbar-nav .nav-item a {
+		font-size: xx-small;
+		margin-top: 4%;
+	}
+	#try {
+		width: 50%;
+		margin-bottom: 10%;
+	}
+	#accbtn {
+		margin-left: 24%;
+		margin-top: 15%;
+		font-size: xx-small;
+	}
+	#tv h1,
+	#stream h1,
+	#device h1 {
+		font-size: 22px;
+	}
+	#tv p,
+	#stream p,
+	#device p {
+		font-size: 12px;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: xx-small;
+	}
+	footer h1 {
+		font-size: 14px;
+	}
+	footer p {
+		font-size: 10px;
+	}
+	#accordion h1 {
+		font-size: 18px;
+	}
+	.card-body,
+	.card-header a {
+		font-size: 12px;
+	}
+	#accordion {
+		margin: 0.1%;
+	}
+	.card {
+		margin: 0.3 0;
+		padding: 0;
+	}
+	.card-header,
+	.card-body {
+		padding: 0.25rem 0.75rem;
+	}
+	.plus {
+		width: 16px;
+		margin-top: 6%;
+	}
+}
+@media (max-width: 768px) and (min-width: 424px) {
+	.content {
+		padding: 10%;
+	}
+	.content p {
+		line-height: 1.6em;
+	}
+	#try {
+		width: 40%;
+	}
+	#video,
+	#image1,
+	#image2 {
+		margin-left: 0%;
+	}
+	.plus {
+		width: 17px;
+		margin-top: 3%;
+	}
+	.card-header,
+	.card-body {
+		padding: 0.4rem 0.8rem;
+	}
+	#accbtn {
+		margin-left: 35%;
+		margin-top: 5%;
+		font-size: x-small;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	#tv h1,
+	#stream h1,
+	#device h1 {
+		font-size: 32px;
+	}
+	#tv p,
+	#stream p,
+	#device p {
+		font-size: 20px;
+	}
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: small;
+	}
+}
+@media (max-width: 425px) and (min-width: 320px) {
+	#tv .btn,
+	#stream .btn,
+	#device .btn {
+		font-size: xx-small;
+	}
+}
